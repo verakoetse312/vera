@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<title>How to Develop a Business Process | Signavio</title>
+
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+	<link rel="canonical" href="https://www.signavio.com/post/how-to-develop-a-business-process/" />
+	<meta name="publisher" content="Signavio GmbH" />
+	<meta name="copyright" content="Signavio &copy; 2020" />
+
+
+		<meta name="keywords" content="Process Modeling" />		<link rel="apple-touch-icon" sizes="180x180" href="https://www.signavio.com/favicons/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="https://www.signavio.com/favicons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="https://www.signavio.com/favicons/favicon-16x16.png">
+	<link rel="manifest" href="https://www.signavio.com/favicons/site.webmanifest">
+	<meta name="msapplication-TileColor" content="#870848">
+	<meta name="theme-color" content="#870848">
+
+	<link href="https://www.signavio.com/news/feed/" title="Signavio News Feed (RSS)" type="application/rss+xml" rel="alternate" />
+	<link href="https://www.signavio.com/events/feed/" title="Signavio Events Feed (RSS)" type="application/rss+xml" rel="alternate" />
+	<link href="https://www.signavio.com/release-notes/feed/" title="Signavio Products Release Notes (RSS)" type="application/rss+xml" rel="alternate" />
+		<link rel="stylesheet" type="text/css" media="all" href="https://www.signavio.com/wp-content/themes/signavio/css/styles.min.css?v=6.5.3" />
+	<!--[if lt IE 9]>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js type="text/javascript"></script>
+	<![endif]-->
+
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script><link rel="alternate" hreflang="en" href="https://www.signavio.com/post/how-to-develop-a-business-process/" />
+
+	<!-- This site is optimized with the Yoast SEO Premium plugin v14.3 - https://yoast.com/wordpress/plugins/seo/ -->
+	<meta name="description" content="Tips for avoiding the traps of business process development" />
+	<meta name="robots" content="index, follow" />
+	<meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+	<meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="How to Develop a Business Process | Signavio" />
+	<meta property="og:description" content="Tips for avoiding the traps of business process development" />
+	<meta property="og:url" content="https://www.signavio.com/post/how-to-develop-a-business-process/" />
+	<meta property="og:site_name" content="Signavio | The Only All-in-One Business Process Software" />
+	<meta property="article:publisher" content="https://www.facebook.com/signavio/" />
+	<meta property="article:modified_time" content="2020-08-03T05:16:06+00:00" />
+	<meta property="og:image" content="https://www.signavio.com/wp-content/uploads/2016/02/coffee-filter.jpg" />
+	<meta property="og:image:width" content="648" />
+	<meta property="og:image:height" content="365" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:creator" content="@signavio" />
+	<meta name="twitter:site" content="@signavio" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://www.signavio.com/#organization","name":"Signavio GmbH","url":"https://www.signavio.com/","sameAs":["https://www.facebook.com/signavio/","https://www.linkedin.com/company/signavio-inc/","https://www.youtube.com/user/signavio","https://twitter.com/signavio"],"logo":{"@type":"ImageObject","@id":"https://www.signavio.com/#logo","inLanguage":"en-US","url":"https://www.signavio.com/wp-content/uploads/2018/04/signavio-avatar.png","width":128,"height":128,"caption":"Signavio GmbH"},"image":{"@id":"https://www.signavio.com/#logo"}},{"@type":"WebSite","@id":"https://www.signavio.com/#website","url":"https://www.signavio.com/","name":"Signavio | The Only All-in-One Business Process Software","description":"Unleash the power of process with the Business Transformation Suite, bringing together process mining, management, and automation in one platform.","publisher":{"@id":"https://www.signavio.com/#organization"},"potentialAction":[{"@type":"SearchAction","target":"https://www.signavio.com/search/{search_term_string}","query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"ImageObject","@id":"https://www.signavio.com/post/how-to-develop-a-business-process/#primaryimage","inLanguage":"en-US","url":"https://www.signavio.com/wp-content/uploads/2016/02/coffee-filter.jpg","width":648,"height":365,"caption":"coffee filter"},{"@type":"WebPage","@id":"https://www.signavio.com/post/how-to-develop-a-business-process/#webpage","url":"https://www.signavio.com/post/how-to-develop-a-business-process/","name":"How to Develop a Business Process | Signavio","isPartOf":{"@id":"https://www.signavio.com/#website"},"primaryImageOfPage":{"@id":"https://www.signavio.com/post/how-to-develop-a-business-process/#primaryimage"},"datePublished":"2016-03-09T18:06:12+00:00","dateModified":"2020-08-03T05:16:06+00:00","description":"Tips for avoiding the traps of business process development","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://www.signavio.com/post/how-to-develop-a-business-process/"]}]}]}</script>
+	<!-- / Yoast SEO Premium plugin. -->
+
+
+<link rel='stylesheet' id='wp-block-library-css'  href='https://www.signavio.com/wp-includes/css/dist/block-library/style.min.css?ver=5.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='wpml-tm-admin-bar-css'  href='https://www.signavio.com/wp-content/plugins/wpml-translation-management/res/css/admin-bar-style.css?ver=2.9.8' type='text/css' media='all' />
+<style>.post-thumbnail img[src$='.svg'] { width: 100%; height: auto; }</style>  <script type="text/javascript">
+    var initial_arrow_offset = "70px";
+  </script>	<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WKNS7K4');</script>
+<!-- HubSpot -->
+<script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/2432607.js"></script>
+<!-- RightMessage -->
+<script type="text/javascript"> 
+(function(p, a, n, d, o, b) {
+    o = n.createElement('script'); o.type = 'text/javascript'; o.async = true; o.src = 'https://tag.rightmessage.com/'+p+'.js';
+    b = n.getElementsByTagName('script')[0]; b.parentNode.insertBefore(o, b);
+    d = function(h, u, i) { var o = n.createElement('style'); o.id = 'rmcloak'+i; o.type = 'text/css';
+        o.appendChild(n.createTextNode('.rmcloak'+h+'{visibility:hidden}.rmcloak'+u+'{display:none}'));
+        b.parentNode.insertBefore(o, b); return o; }; o = d('', '-hidden', ''); d('-stay-invisible', '-stay-hidden', '-stay');
+    setTimeout(function() { o.parentNode && o.parentNode.removeChild(o); }, a);
+})('354844518', 2500, document);
+</script>
+</head>
+
+<body class="sgnv_blogpost-template-default single single-sgnv_blogpost postid-35997 css-init ">
+		<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WKNS7K4"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
+	<div class="disclaimer-container">
+	<div class="container">
+		<div class="disclaimer-text">
+			<p>We use cookies to give you the best possible experience on our website. By clicking OK, you agree to our cookie policy. If you would like to change your cookie preferences you may do so <span><a href="https://www.signavio.com/privacy/">here</a></span>. <span class="disclaimer-button">OK</span></p>		</div>
+
+	</div>
+</div>
+	<div id="page">
+				<header id="main-header" class="menuStatus-lg hide-mobile hide-tablet" >
+			<div class="support-menu-container landingpages">
+				<div class="sg-container">
+					<nav>
+												<div>
+							<ul id="support-menu">
+								<div id="s-form-container">
+									<form action="/" method="GET" class="s-form">
+										<div class="input-icon">
+											<input type="search" name="s" id="search" value="" placeholder="Search" autocomplete="off" autocapitalize="off" />
+											<button id="mobile-search-button">
+												Search											</button>
+										</div>
+
+									</form>
+								</div>
+																<li id="language-menu" class="icon-lang-en">
+									<a href="#">Language</a>
+									<ul class="submenu">
+										<li><a href="https://www.signavio.com/post/how-to-develop-a-business-process/">English</a></li><li><a href="https://www.signavio.com/de/">Deutsch</a></li><li><a href="https://www.signavio.com/fr/">Français</a></li>									</ul>
+								</li>
+								<li id="login-menu">
+									<a href="#" >Login</a>
+									<ul class="submenu" id="menu-login">
+										
+							<li><a href="https://editor.signavio.com/p/login">Process Manager<span> Login</span></a></li>
+							<li><a href="https://workflow.signavio.com/">Workflow Accelerator<span> Login</span></a></li>
+							<li><a href="https://app-us.signavio.com/p/login">Process Manager (US)<span> Login</span></a></li>
+							<li><a href="https://workflow-us.signavio.com/">Workflow Accelerator (US)<span> Login</span></a></li>
+							<li><a href="https://app-au.signavio.com/p/login">Process Manager (APAC)<span> Login</span></a></li>
+							<li><a href="https://workflow-au.signavio.com/">Workflow Accelerator (APAC)<span> Login</span></a></li>
+																</ul>
+								</li>
+								<li>
+									<a href="https://www.signavio.com/blog/">Blog</a>
+								</li>
+								
+								<li id="menu-careers"><a href="https://www.signavio.com/jobs/" class="direct-contact">Careers</a></li>
+								
+								<li id="menu-contact"><a href="https://www.signavio.com/contact/" class="direct-contact">Contact</a></li>
+																<li class="cta">
+									<a id="try" class="cta_button cta-aquamiddle rmcloak" href="https://www.signavio.com/try?sgnv_source=website&sgnv_medium=button&sgnv_content=global&sgnv_campaign=Free%20trial&pgid=35997">Try Signavio Now</a>								</li>
+							</ul>
+						</div>
+					</nav>
+				</div>
+			</div>
+
+			<div class="menu-container landingpages" >
+				<div class="sg-container">
+					<div id="logo">
+						<a href="https://www.signavio.com/" title="Signavio Logo">
+							<div class="signavio-brand-logo"></div>
+						</a>
+					</div>
+					<div class="menu-new-main-menu-2019-en-container"><ul id="main-menu" class="menu"><li><a href="#">Products</a>
+<ul class="sub-menu">
+	<li><a href="https://www.signavio.com/products/business-transformation-suite/">Business Transformation Suite</a></li>
+	<li><a href="https://www.signavio.com/products/process-manager/">Process Manager</a></li>
+	<li><a href="https://www.signavio.com/products/process-intelligence/">Process Intelligence</a></li>
+	<li><a href="https://www.signavio.com/products/workflow-accelerator/">Workflow Accelerator</a></li>
+	<li><a href="https://www.signavio.com/products/collaboration-hub/">Collaboration Hub</a></li>
+	<li><a href="https://www.signavio.com/pricing/">Signavio Pricing – Request a Quote</a></li>
+</ul>
+</li>
+<li><a href="#">Solutions</a>
+<ul class="sub-menu">
+	<li><a href="https://www.signavio.com/highlights/operational-excellence/">Operational Excellence</a></li>
+	<li><a href="https://www.signavio.com/highlights/erp-transformation/">ERP Transformation</a></li>
+	<li><a href="https://www.signavio.com/highlights/risk-compliance/">Risk &#038; Compliance</a></li>
+	<li><a href="https://www.signavio.com/highlights/rpa-at-scale/">RPA at Scale</a></li>
+	<li><a href="https://www.signavio.com/highlights/mapping-your-customer-journey/">Mapping Your Customer Journey</a></li>
+	<li><a href="https://www.signavio.com/process-mining-salesforce/">Process Mining for Salesforce</a></li>
+	<li><a href="https://www.signavio.com/s4hana-migration/">S/4HANA® Migration</a></li>
+	<li><a href="https://www.signavio.com/order-to-cash-process/">Order-to-Cash Optimization</a></li>
+	<li><a href="https://www.signavio.com/radically-optimize-procure-to-pay/">Procure-to-Pay Optimization</a></li>
+</ul>
+</li>
+<li><a href="#">Industries</a>
+<ul class="sub-menu">
+	<li><a href="https://www.signavio.com/verticals/banking/">Banking</a></li>
+	<li><a href="https://www.signavio.com/verticals/insurance/">Insurance</a></li>
+	<li><a href="https://www.signavio.com/verticals/telecommunications/">Telecommunications</a></li>
+	<li><a href="https://www.signavio.com/verticals/manufacturing/">Manufacturing</a></li>
+	<li><a href="https://www.signavio.com/verticals/">More Industries &#8230;</a></li>
+</ul>
+</li>
+<li><a href="#">Customers</a>
+<ul class="sub-menu">
+	<li><a href="https://www.signavio.com/customers/">Customer Overview</a></li>
+	<li><a href="https://www.signavio.com/success-stories/">Success Stories</a></li>
+</ul>
+</li>
+<li><a href="#">Partners</a>
+<ul class="sub-menu">
+	<li><a href="https://www.signavio.com/partnering-with-signavio/">Partnering with Signavio</a></li>
+	<li><a href="https://www.signavio.com/partners-for-the-future/">Partners for the Future</a></li>
+</ul>
+</li>
+<li><a href="#">Resources</a>
+<ul class="sub-menu">
+	<li><a href="https://www.signavio.com/resource-center/">Resource Center</a></li>
+	<li><a href="https://www.signavio.com/video/featured-videos/">Video Center</a></li>
+	<li><a href="https://www.signavio.com/reference-models/">Reference Models</a></li>
+	<li><a href="https://www.signavio.com/bpmn-introductory-guide/">BPMN Introductory Guide</a></li>
+	<li><a href="https://www.signavio.com/post/10-workflow-examples/">Workflow Examples</a></li>
+	<li><a href="https://www.modeling-guidelines.org/">Modeling Guidelines</a></li>
+	<li><a href="https://www.signavio.com/training-consulting/">Training &#038; Consulting</a></li>
+	<li><a href="https://documentation.signavio.com/suite/en-us/Content/home.htm?&#038;utm_source=signavio-menu&#038;utm_medium=referral">Documentation</a></li>
+</ul>
+</li>
+<li><a href="#">Company</a>
+<ul class="sub-menu">
+	<li><a href="https://www.signavio.com/contact/">Contact</a></li>
+	<li><a href="https://www.signavio.com/story-behind-signavio/">The Story Behind Signavio</a></li>
+	<li><a href="https://www.signavio.com/story-behind-signavio/management/">Leadership Team</a></li>
+	<li><a href="https://www.signavio.com/signavio-awards/">Awards &#038; Recognition</a></li>
+	<li><a href="https://www.signavio.com/blog/">Signavio Blog</a></li>
+	<li><a href="https://www.signavio.com/news/">News</a></li>
+	<li><a href="https://www.signavio.com/events/">Events</a></li>
+	<li><a href="https://www.signavio.com/jobs/">Careers</a></li>
+</ul>
+</li>
+</ul></div>				</div>
+			</div>
+		</header>
+		<header class="mobile-header hide-desktop hide-large-desktop">
+			<div class="container">
+				<div class="logo">
+					<a href="https://www.signavio.com/" style="color: #fff;text-decoration: none;">
+						<div class="signavio-brand-logo"></div>
+					</a>
+				</div>
+
+				<div class="mobile-nav">
+					<div id="mobile-menu" class="mobile-menu-ico"></div>
+					<div id="mobile-lang" class="icon-lang-en"></div>
+					<div id="mobile-search" class="icon-search"></div>
+				</div>
+			</div>
+		</header>
+		<div id="mobile-collapse" class="hide-desktop hide-large-desktop" data-close="Close"></div>
+
+		<div id="overlay"></div>
+<script type="application/ld+json">
+{
+"@context": "http://schema.org",
+"@type": "Article",
+"name": "How to Develop a Business Process",
+"url": "https://www.signavio.com/post/how-to-develop-a-business-process/",
+"datePublished": "2016-03-09T18:06:12Z",
+"dateModified": "2020-08-03T07:16:06+02:00",
+"headline": "How to Develop a Business Process",
+"image": "https://www.signavio.com/wp-content/uploads/2016/02/coffee-filter.jpg"
+}
+</script>
+
+<div id="wrap">
+
+	
+
+<div class="blog-submenu">
+	<div class="container">
+		<ul>
+			<li ><a href="https://www.signavio.com/blog/">Blog Home</a></li>
+			<li class=""><a href="https://www.signavio.com/blog/applied-bpm/">Applied BPM</a></li><li class=""><a href="https://www.signavio.com/blog/business-scenarios/">Business Scenarios</a></li><li class=""><a href="https://www.signavio.com/blog/inside-signavio/">Inside Signavio</a></li><li class=""><a href="https://www.signavio.com/blog/product-announcements/">Product Announcements</a></li>		</ul>
+	</div>
+</div>
+
+	<div class="blogpost">
+		<div class="grbg">
+			<div class="container">
+				<div class="page-content">
+					<div class="side-content-blogpost">
+						<div class="page-title">
+							
+<h1>How to Develop a Business Process</h1>						</div>
+						<div class="blogpost-readtime">
+							<div class="author">Published by Peter Hilton | <span class="readtime">2 min read</span></div>						</div>
+					</div>
+					<div class="main-content-blog">
+						<div><picture class="lazy">
+            <source
+                media="(min-width: 768px)"
+                srcset="https://www.signavio.com/wp-content/uploads/2016/02/coffee-filter.jpg 648w, https://www.signavio.com/wp-content/uploads/2016/02/coffee-filter-600x338.jpg 600w, https://www.signavio.com/wp-content/uploads/2016/02/coffee-filter-300x169.jpg 300w"
+                sizes="100vw"
+            />
+            <source
+                media="(max-width: 767px)"
+                srcset="https://www.signavio.com/wp-content/uploads/2016/02/coffee-filter.jpg 648w, https://www.signavio.com/wp-content/uploads/2016/02/coffee-filter-600x338.jpg 600w, https://www.signavio.com/wp-content/uploads/2016/02/coffee-filter-300x169.jpg 300w"
+                sizes="100vw"
+            />
+         
+        <img src="https://www.signavio.com/wp-content/uploads/2016/02/coffee-filter.jpg" alt="coffee filter" />
+    </picture></div>						<div class="excerpt">
+							<p class="teasertext">Tips for avoiding the traps of business process development</p>						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="nobg">
+			<div class="container">
+				<div class="page-content">
+					<div class="main-content">
+						<div class="title-copy">
+<p>Although developing a process can sound straightforward, there are a number of traps waiting to catch you out. This article offers some tips.</p>
+</div>
+<div class="intro-copy"></div>
+<h2><span>The model is not the process</span></h2>
+<p>Developing a business process means having people do their actual work according to that process. Influencing how people do their work is a hard problem that attracts high salaries and is called Management.</p>
+<p>Developing a business process model, on the other hand, is so much easier that you risk spending too much time on it and developing a process model that you will not be able to translate to the workflow.</p>
+<p>Therefore, the first step is to focus on the end goal. That is not a diagram.</p>
+<h3><span>Start simple</span></h3>
+<p>Now, whether you are modelling from scratch or looking at how people actually do their work, start with the simplest possible version of the process you have in mind. This is no more than a statement of the end goal, such as Ship product to customer.</p>
+<p>Next, before you proceed to add detail to the model, get everyone involved.</p>
+<h3><span>Involve everyone</span></h3>
+<p>Ivory tower process modelling is appealing to some, but risks failure to survive contact with reality. Instead, use the trivial model that you started with to engage people in a conversation about how the work actually works. The people who know most about the work are (collectively) the people who do it.</p>
+<p>‘Everyone’ doesn’t necessarily mean everyone, but you won’t know who’s involved in the business process until the model is far more detailed. In any case, this certainly includes more organisational roles than process analyst.</p>
+<p>In practice, however, there&#8217;s a difference between what people say they do, and what they actually do.</p>
+<h3><span>Get feedback from the actual work</span></h3>
+<p>A good way to involve the people who do the work in developing a process model is to use a workflow management or case management tool to provide software support for process execution.</p>
+<p>When the initial process model only has a single step that represents the whole process, then tool support lets you track the whole cases as they are started and completed. Adding the tasks and integrations within those cases is the next step.</p>
+<h3><span>Iterate the model together with the actual work</span></h3>
+<p>Only now that you have a (trivial) process model that you can actually use in practice, and involvement from people who understand the work, can you safely add detail to the model.</p>
+<p>Since managing people, a.k.a. ‘herding cats’, and any kind of change is harder than modelling, you may benefit more from making changes to the actual work before updating the model to reflect those changes, rather than the other way around.</p>
+<p>Most importantly, each time you work on a case (i.e. execute the process), you potentially update the model as a result, either to add useful detail, to add automation, or to improve the process model.</p>
+<h3><span>Choose flexible tools</span></h3>
+<p>You cannot achieve the above with software tools that are based on creating a model diagram, and implementing the model with custom software development that is expensive and time-consuming to change. Instead you need software that:</p>
+<ul>
+<li>lets you start quickly, with no set-up</li>
+<li>is easy to use, so you don’t need training before you start</li>
+<li>lets you iterate between designing and executing a process model</li>
+<li>lets you work with multiple people in your organisation.</li>
+</ul>
+<p>Signavio Workflow is the result of this long story: simplified workflow modelling and execution that you can use to develop not just a process model but an actual running business process.</p>
+
+						<div class="blogpost-extra">
+
+							<div class="blogpost-date">
+								Published on: 								March 9th 2016 -
+								Last modified: 								August 3rd, 2020							</div>
+
+							<div class="blogpost-tags">
+								Topics: <a href="https://www.signavio.com/tag/process-modeling/">Process Modeling</a>							</div>
+
+						</div>
+
+					</div>
+					<div class="side-content">
+						
+
+
+
+<div class="side-hs-cta-container">
+		<p class="standard-cta-header">
+		FIND OUT MORE	</p>
+	<div>
+	
+			<!--HubSpot Call-to-Action Code --><span class="hs-cta-wrapper hs-cta-nopadding" id="hs-cta-wrapper-053e9b35-3111-43e9-909f-94306502edec"><span class="hs-cta-node hs-cta-053e9b35-3111-43e9-909f-94306502edec" id="hs-cta-053e9b35-3111-43e9-909f-94306502edec"><!--[if lte IE 8]><div id="hs-cta-ie-element"></div><![endif]--><a href="http://cta-redirect.hubspot.com/cta/redirect/2432607/053e9b35-3111-43e9-909f-94306502edec"  target="_blank" ><img class="hs-cta-img" id="hs-cta-img-053e9b35-3111-43e9-909f-94306502edec" style="border-width:0px;" height="100" width="386" src="https://no-cache.hubspot.com/cta/default/2432607/053e9b35-3111-43e9-909f-94306502edec.png"  alt="Request a personalized demo"/></a></span><script charset="utf-8" src="https://js.hscta.net/cta/current.js"></script><script type="text/javascript"> hbspt.cta.load(2432607, '053e9b35-3111-43e9-909f-94306502edec', {}); </script></span><!-- end HubSpot Call-to-Action Code -->
+				</div>
+	</div>
+
+		<div class="sharing">
+			<p class="custom-cta-header">SHARE THIS</p>
+			<ul>
+				<li><a href="http://www.twitter.com/share?url=https%3A%2F%2Fwww.signavio.com%2Fpost%2Fhow-to-develop-a-business-process%2F"><span class="ico-tw"></span></a></li>
+				<li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.signavio.com%2Fpost%2Fhow-to-develop-a-business-process%2F"><span class="ico-fb"></span></a></li>
+				<li><a href="https://www.xing.com/social_plugins/share/new?sc_p=xing-share&h=1&url=https%3A%2F%2Fwww.signavio.com%2Fpost%2Fhow-to-develop-a-business-process%2F"><span class="ico-xi"></span></a></li>
+				<li><a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.signavio.com%2Fpost%2Fhow-to-develop-a-business-process%2F"><span class="ico-li"></span></a></li>
+			</ul>
+		</div>
+					</div>
+				</div>
+				<div class="extra">
+									</div>
+			</div>
+		</div>
+
+		<div class="related-posts"><div class="container"><h2>Related Articles</h2><div class="list-container"><div class="list-item" itemscope itemtype="https://schema.org/Article">
+								<a href="https://www.signavio.com/post/digital-transformation-crisis-response/" class="" itemprop="url"><div class="post"><div class="post-category-date"><div class="post-category">Business Scenarios</div><div class="post-category">April 2nd 2020</div></div><div class="post-title"><span itemprop="name">Digital Transformation is an Effective Crisis Response</span></div></div>	</a>
+							</div><div class="list-item" itemscope itemtype="https://schema.org/Article">
+								<a href="https://www.signavio.com/post/bpmn-modeling-conventions/" class="" itemprop="url"><div class="post"><div class="post-category-date"><div class="post-category">Business Scenarios</div><div class="post-category">January 9th 2020</div></div><div class="post-title"><span itemprop="name">BPMN Modeling Conventions: A Comprehensive Guide</span></div></div>	</a>
+							</div><div class="list-item" itemscope itemtype="https://schema.org/Article">
+								<a href="https://www.signavio.com/post/growing-your-business-with-process-management/" class="" itemprop="url"><div class="post"><div class="post-category-date"><div class="post-category">Business Scenarios</div><div class="post-category">August 8th 2019</div></div><div class="post-title"><span itemprop="name">Growing Your Business With Process Management</span></div></div>	</a>
+							</div><div class="list-item" itemscope itemtype="https://schema.org/Article">
+								<a href="https://www.signavio.com/post/successful-quality-management/" class="" itemprop="url"><div class="post"><div class="post-category-date"><div class="post-category">Business Scenarios</div><div class="post-category">July 16th 2019</div></div><div class="post-title"><span itemprop="name">Leveraging processes for successful quality management</span></div></div>	</a>
+							</div><div class="list-item" itemscope itemtype="https://schema.org/Article">
+								<a href="https://www.signavio.com/post/hunting-for-easter-treats-with-signavio/" class="" itemprop="url"><div class="post"><div class="post-category-date"><div class="post-category">Applied BPM</div><div class="post-category">April 18th 2019</div></div><div class="post-title"><span itemprop="name">Hunting for Easter Treats (and Process Optimization) with Signavio</span></div></div>	</a>
+							</div><div class="list-item" itemscope itemtype="https://schema.org/Article">
+								<a href="https://www.signavio.com/post/process-oriented-risk-and-controls-framework/" class="" itemprop="url"><div class="post"><div class="post-category-date"><div class="post-category">Business Scenarios</div><div class="post-category">August 14th 2018</div></div><div class="post-title"><span itemprop="name">Getting Started on Your Process-Oriented Risk and Controls Framework</span></div></div>	</a>
+							</div><div class="list-item" itemscope itemtype="https://schema.org/Article">
+								<a href="https://www.signavio.com/post/multi-level-approval-workflows/" class="" itemprop="url"><div class="post"><div class="post-category-date"><div class="post-category">Applied BPM</div><div class="post-category">July 2nd 2018</div></div><div class="post-title"><span itemprop="name">Multi-level approval workflows</span></div></div>	</a>
+							</div></div><div class="cta-container"><a href="https://www.signavio.com/downloads/white-papers/7-step-guide-operational-excellence/"><div class="cta-img"><img 
+                data-srcset="https://www.signavio.com/wp-content/uploads/2018/01/7steps-operational-excellence-portrait-en-2-1200x1702.jpg 1200w, https://www.signavio.com/wp-content/uploads/2018/01/7steps-operational-excellence-portrait-en-2-600x851.jpg 600w, https://www.signavio.com/wp-content/uploads/2018/01/7steps-operational-excellence-portrait-en-2-300x426.jpg 300w, https://www.signavio.com/wp-content/uploads/2018/01/7steps-operational-excellence-portrait-en-2.jpg 1242w"
+                data-sizes="20vw"
+         data-src="https://www.signavio.com/wp-content/uploads/2018/01/7steps-operational-excellence-portrait-en-2.jpg" alt="7 steps guide operational excellence preview" class="lazy"></div><div class="cta-title"><div class="cta-button-container"><div class="cta-button">Download now</div></div></div></a></div></div></div>
+	</div>
+
+</div>
+
+<footer>
+	<div class="footer-menu-container">
+		<div class="sg-container sg-no-pd-lr-sm">
+			<div class="footerlogo-container">
+				<a href="https://www.signavio.com/" style="cursor: pointer;" title="Signavio Logo">
+					<div class="footerlogo"></div>
+				</a>
+				<div class="social-links">
+					<h4>Get connected:</h4>
+					<ul>
+						<li><a target="_blank" href="https://www.linkedin.com/company/signavio-inc" title="LinkedIn"><div class="linkedin"></div></a></li>
+						<li><a target="_blank" href="https://www.xing.com/companies/signaviogmbh" title="Xing"><div class="xing"></div></a></li>
+						<li><a target="_blank" href="https://twitter.com/signavio" title="Twitter"><div class="twitter"></div></a></li>
+						<li><a target="_blank" href="https://www.facebook.com/signavio" title="Facebook"><div class="facebook"></div></a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="footer-menu">
+				<div class="menu-new-footer-2019-en-container"><ul id="footer-menu" class="menu"><li>Fan Favorites
+<ul class="sub-menu">
+	<li><a href="https://www.signavio.com/process-mining-guide/">Process Mining Guide</a></li>
+	<li><a href="https://www.signavio.com/downloads/short-reads/free-bpmn-2-0-poster/">Free BPMN 2.0 poster</a></li>
+	<li><a href="https://www.signavio.com/downloads/short-reads/bpmn-2-0-and-dmn-1-0-poster/">Free BPMN 2.0 and DMN 1.0 Poster</a></li>
+	<li><a href="https://www.signavio.com/signavio-bpm-cookbook/">Signavio BPM Cookbook</a></li>
+	<li><a href="https://www.signavio.com/business-scenarios/">Business Scenarios</a></li>
+</ul>
+</li>
+<li>Your Process Journey
+<ul class="sub-menu">
+	<li><a href="https://www.signavio.com/why-choose-signavio/">Why Choose Signavio?</a></li>
+	<li><a href="https://www.signavio.com/process-mining/">Process Mining</a></li>
+	<li><a href="https://www.signavio.com/bpm-software-business-process-management/">How BPM Software Delivers Value</a></li>
+	<li><a href="https://www.signavio.com/bpmn-2-0-for-efficient-process-design/">BPMN 2.0 Insides</a></li>
+	<li><a href="https://www.signavio.com/resource-center/?type=webinars">Webinars</a></li>
+	<li><a href="https://www.signavio.com/resource-center/?type=downloads">Downloads</a></li>
+</ul>
+</li>
+<li>Hot Topics
+<ul class="sub-menu">
+	<li><a href="https://www.signavio.com/velocity/">Velocity Edition</a></li>
+	<li><a href="https://www.signavio.com/customerjourney/">Customer Journey Mapping</a></li>
+	<li><a href="https://www.signavio.com/world/">Signavio World 2019</a></li>
+	<li><a href="https://www.signavio.com/gdpr-resource-center/">GDPR Resource Center</a></li>
+	<li><a href="https://www.signavio.com/robotic-process-automation-guide/">Robotic Process Automation Guide</a></li>
+	<li><a href="https://www.signavio.com/saas-benefits-signavios-secure-cloud-service/">The Benefits of SaaS</a></li>
+	<li><a href="https://www.signavio.com/business-decision-management/">Why Decision Management?</a></li>
+	<li><a href="https://www.signavio.com/post/what-workflow-management-is/">What is Workflow Management?</a></li>
+</ul>
+</li>
+<li>More Information
+<ul class="sub-menu">
+	<li><a href="https://www.signavio.com/why-work-at-signavio/">Working at Signavio</a></li>
+	<li><a href="https://www.signavio.com/our-team/">Our Team</a></li>
+	<li><a href="https://www.signavio.com/contact/newsletter-registration/">Newsletter Registration</a></li>
+	<li><a href="https://www.signavio.com/support/">Support</a></li>
+	<li><a href="https://www.signavio.com/data-security/">Data Security</a></li>
+	<li><a href="https://www.signavio.com/bpm-academic-initiative/">BPM Academic Initiative</a></li>
+	<li><a href="https://www.signavio.com/release-notes/">Release Notes</a></li>
+	<li><a href="https://www.signavio.com/software-licenses/">Software Licenses</a></li>
+	<li><a href="https://www.signavio.com/browser-compatibility/">Browser Compatibility</a></li>
+</ul>
+</li>
+</ul></div>			</div>
+		</div>
+	</div>
+	
+	<div class="footer-offices-container">
+		<div class="sg-container">
+			<div id="sg-offices-ctrl"><div class="see-all">
+						See all Signavio offices
+						<spam id="sg-offices-ctrl-arrow"></spam>
+					</div></div><div id="sg-offices"><ul><li><div class="region-title"> Signavio GmbH </div><div class="region-content"> <p>Kurfürstenstraße 111<br />
+10787 Berlin<br />
+Germany<br />
+<strong>Telephone:</strong> +49 30 856 21 54-0<br />
+<strong>Fax:</strong> +49 30 8562 154-19</p>
+ </div></li><li><div class="region-title"> Signavio, Inc. </div><div class="region-content"> <p>800 District Ave., Suite 180<br />
+Burlington, MA 01803<br />
+United States of America<br />
+<strong>Telephone:</strong> +1 978 320 5040</p>
+ </div></li><li><div class="region-title"> Signavio Pte. Ltd. </div><div class="region-content"> <p>12 Marina View<br />
+Asia Square Tower 2, #11-01<br />
+Singapore 018961<br />
+<strong>Telephone:</strong> +65 6817 3840</p>
+ </div></li><li><div class="region-title"> Signavio ANZ PTY LTD </div><div class="region-content"> <p>Level 23, Collins Square Tower Five<br />
+727 Collins Street<br />
+Melbourne VIC 3008<br />
+<strong>Telephone:</strong> +61 3 9101 8171</p>
+ </div></li><li><div class="region-title"> Signavio Schweiz GmbH </div><div class="region-content"> <p>Baarerstrasse 79<br />
+6300 Zug<br />
+Switzerland<br />
+<strong>Telephone:</strong> <span class="jkmDtd">+41 44 562 0800</span></p>
+ </div></li><li><div class="region-title"> Signavio France SAS </div><div class="region-content"> <p>15 rue Beaujon<br />
+75008 Paris<br />
+France<br />
+<strong>Telephone:</strong> +33 1 42 99 94 16</p>
+ </div></li><li><div class="region-title"> Signavio UK Ltd. </div><div class="region-content"> <p>12 Melcombe Place, Marylebone Station<br />
+London NW1 6JJ<br />
+United Kingdom<br />
+<strong>Telephone:</strong> +44 20 34 57 04 09</p>
+ </div></li><li><div class="region-title"> Signavio Benelux B.V. </div><div class="region-content"> <p>Barbara Strozzilaan 201<br />
+1083 HN Amsterdam<br />
+Netherlands<br />
+<strong>Telephone:</strong> +31 20 240 22 92</p>
+ </div></li><li><div class="region-title"> Signavio Sweden Private AB </div><div class="region-content"> <p>Regus &#8211; Stockholm, KistaOne<br />
+Kistagången 20B<br />
+Kista 16440<br />
+Sweden<br />
+<strong>Telephone:</strong> +46 8 5171 1784</p>
+ </div></li><li><div class="region-title"> Signavio Japan K.K </div><div class="region-content"> <p>1F &#8211; 3F Otemachi Building<br />
+1-6-1 Otemachi,<br />
+Chiyoda-ku<br />
+Tokyo 100-0004<br />
+Japan<br />
+<strong>Telephone:</strong> + 81 3 6841 3932</p>
+ </div></li><li><div class="region-title"> Signavio India Private Ltd. </div><div class="region-content"> <p><strong>REGD. OFFICE</strong>:<br />
+Office No. 25, 12th Floor, Building 9B, DLF Cyber City, Phase 3<br />
+122002 Gurugram, Haryana<br />
+India</p>
+<p><strong>CORPORATE OFFICE</strong>:<br />
+16th Floor, Max Towers, Plot No. C-001A, Sector 16B, DND Flyway<br />
+201301 Noida, Uttar Pradesh<br />
+India<br />
+<strong>Telephone</strong>: +91-120-718-5056</p>
+ </div></li><li><div class="region-title"> Support-Hotline <br /> (for customers) </div><div class="region-content"> <p><strong>Support-Hotline:</strong> +49 30 856 21 54-21<br />
+<strong>Support-Hotline (US):</strong> +1 978 320 5040<br />
+<strong>Fax:</strong> +49 30 8562 154-19<br />
+<strong>Email :</strong> <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#115;&#117;&#112;&#112;&#111;&#114;&#116;&#64;&#115;&#105;&#103;&#110;&#97;&#118;&#105;&#111;&#46;&#99;&#111;&#109;">&#115;&#117;&#112;&#112;&#111;&#114;&#116;&#64;&#115;&#105;&#103;&#110;&#97;&#118;&#105;&#111;&#46;&#99;&#111;&#109;</a></p>
+ </div></li></ul></div>		</div>
+	</div>
+	<div class="sg-container">
+		<nav id="legal_menu" class="legal-menu">
+			<div class="menu-footer-navigation-bar-container"><ul id="legal-menu" class="menu"><li><a href="https://www.signavio.com/legal-info/">Legal info</a></li>
+<li><a href="https://www.signavio.com/terms-and-conditions/">Standard Agreement &#8211; T&#038;C</a></li>
+<li><a href="https://www.signavio.com/privacy/">Privacy Policy</a></li>
+</ul></div>		</nav>
+	</div>
+</footer>
+
+</div><!-- #page -->
+
+
+<script src="https://www.signavio.com/wp-content/themes/signavio/js/script.min.js?v=6.5.3"></script>
+
+
+<script>
+var lazyLoadInstance = new LazyLoad({
+    elements_selector: ".lazy"
+});
+</script>
+</body>
+</html>
